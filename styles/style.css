@@ -9,7 +9,19 @@ a {
 .menus {
     display: flex;
     justify-content: space-around;
-    margin: 7vh;
+    align-items: center;
+    width: 70vw;
+    margin: 7vh 15vw;
+    background-color:  rgba(22, 35, 212, 0.826) ;
+    border-radius: 15px;
+    color: white;
+    height: 50px;
+}
+.menus a {
+    color: rgb(237, 232, 228);
+}
+.menus a:hover{
+    color: rgb(234, 151, 92);
 }
 .f-footer{
     display: flex;
@@ -19,6 +31,8 @@ a {
     background-color: black; 
     color: white;
     padding: 0 10px;
+    margin: 0 30px;
+    border-radius: 15px;
 }
 .social {
    
@@ -47,7 +61,7 @@ footer a {
     height: 62.3vh;
     display: flex;
     justify-content: space-around;
-    margin: 8vh 20vw;
+    margin: 7.3vh 20vw;
     gap: 10vw;
     
     
@@ -57,7 +71,7 @@ footer a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin: 8vh 20vw;
+    margin: 7vh 20vw;
 }
 .container img {
     border-radius: 50%;
